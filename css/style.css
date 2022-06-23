@@ -46,12 +46,16 @@ textarea {
     outline: none; }
 
 .choices_box {
-  display: flex;
-  align-content: flex-start;
   width: 50%; }
   .choices_box-item {
+    display: inline-block;
     border-radius: 45%;
     padding: 1rem 2rem;
     color: #fafaf9;
     background-color: #f97316;
-    font-size: 1.4rem; }
+    font-size: 1.4rem;
+    margin: .2rem .5rem; }
+
+.highlited {
+  background-color: #4c1d95;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); }
